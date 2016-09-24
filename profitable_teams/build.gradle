@@ -1,0 +1,11 @@
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.10.4'
+    compile 'com.bizo:mighty-csv_2.10:0.2'
+    testCompile 'org.scalatest:scalatest_2.10:2.1.7'
+}
