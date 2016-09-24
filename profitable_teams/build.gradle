@@ -9,3 +9,8 @@ dependencies {
     compile 'com.bizo:mighty-csv_2.10:0.2'
     testCompile 'org.scalatest:scalatest_2.10:2.1.7'
 }
+
+tasks.withType(ScalaCompile) {
+    sourceCompatibility = "1.7"
+    targetCompatibility = "1.7"
+}
